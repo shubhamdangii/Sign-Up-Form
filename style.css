@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  font-weight: 100px;
+}
+
+.outerbox {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    to top left,
+    rgb(43, 74, 247),
+    rgb(196, 90, 90)
+  );
+}
+
+.innerbox {
+  border: 2px solid black;
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+  top: 20%;
+  transform: translateY(-50);
+  padding: 20px 40px;
+  backdrop-filter: blur(20px);
+  background: transparent;
+  border-radius: 8px;
+  box-shadow: 10px 10px 100px rgb(0, 0, 0);
+  z-index: 2;
+}
+
+.signup-header h1 {
+  font-size: 2.5rem;
+  color: #1a1717;
+}
+
+.signup-header p {
+  font-size: 1.4rem;
+  color: rgb(41, 43, 44);
+}
+.signup-main {
+  margin: 20px 0px;
+}
+.signup-main p {
+  margin: 10px 0px;
+}
+
+.signup-main p label {
+  display: block;
+  font-weight: bold;
+}
+
+.signup-main p input {
+  width: 100%;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-top: 5px;
+  border: none;
+}
+
+.signup-main p input[type="submit"] {
+  background-color: hwb(0 10% 90%);
+  color: white;
+  font-weight: 200;
+  cursor: pointer;
+  margin-top: 0px;
+}
+.signup-main p input[type="submit"]:hover {
+  background-color: black;
+}
+
+.signup-footer p {
+  text-align: center;
+}
+.signup-footer p a {
+    color: rgb(8, 0, 255);
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(
+        to top left,
+        rgb(0, 128, 255),
+        rgb(214, 201, 114)
+      );
+      position: absolute;
+}
+
+.c1{
+    top: 100px;
+    left: 100px;
+    box-shadow: 2px 2px 20px rgb(0, 0, 0);
+}
+
+.c2{
+    bottom: 100px;
+    right: 100px;
+    box-shadow: 2px 2px 20px rgb(0, 0, 0);
+}
